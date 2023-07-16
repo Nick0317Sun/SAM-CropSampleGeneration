@@ -7,7 +7,7 @@ This is an exploration on what [Segment Anything Model (SAM)](https://github.com
 
 
 ## Installation
-We assume you have already some understandings of Python and PyTorch. Only the instructions of some specific required components are provided below. 
+We assume you already have some understandings of Python and PyTorch. Only the instructions of some specific required components are provided below. 
 We utilized shapely, geopandas to manipulate shapefile files; rasterio to manipulate raster files; scipy and fastdtw to perform sample cleaning.
 
 1. Install required packages:
