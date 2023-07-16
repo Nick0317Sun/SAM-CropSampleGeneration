@@ -18,7 +18,7 @@ We utilized shapely, geopandas to manipulate shapefile files; rasterio to manipu
 
 `conda install --yes --file requirements.txt`
 
-2. Download SAM [checkpoint](https://github.com/facebookresearch/segment-anything#model-checkpoints), we used [ViT-H SAM model](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth).
+2. Download SAM [checkpoint](https://github.com/facebookresearch/segment-anything#model-checkpoints), we used [ViT-H SAM model](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth). As you finish download, put the checkpoint in the same folder as main.py.
 
 ## Demo
 We provided a simple demo of using Sentinel-2 time series and field-survey samples from [AAFC](https://open.canada.ca/data/en/dataset/503a3113-e435-49f4-850c-d70056788632).
