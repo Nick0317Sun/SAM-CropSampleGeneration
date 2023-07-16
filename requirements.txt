@@ -1,0 +1,8 @@
+tqdm
+shapely
+pandas
+geopandas
+rasterio
+pyproj
+scipy
+fastdtw
