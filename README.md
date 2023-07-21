@@ -39,13 +39,31 @@ CPU:
 ## Results
 Each sample would generate six PNG images. 
 
-(1) (id)_BeforeSAM.png : indicates the patch extracted as the input for SAM, and where the reference sample located.
+(1) (id)_BeforeSAM.png : indicates the patch extracted as the input for SAM, and where the reference sample located. 
+
+Example 1924_BeforeSAM.png:
+
+![](https://github.com/Nick0317Sun/SAM-CropSampleGeneration/blob/main/experiments/1924_BeforeSAM.png)
 
 (2) (id)_AfterSAM_mask\_(num).png × 3: indicates the mask producted by SAM, and where the mask located in the patch. Because of our settings of SAM, it produces 3 masks with scores.
 
-(3) (id)_AfterSAM\_SITS.png : The NDVI time series curves of the reference sample and generated samples. The red line is the curve of the reference sample.
+Example 1924_AfterSAM_mask\_[1-3].png: 
 
-(4) (id)_AfterSAM\_SITS_cleaned.png : The NDVI time series curves of the reference sample and generated samples after sample cleaning. The red line is the curve of the reference sample.
+![](https://github.com/Nick0317Sun/SAM-CropSampleGeneration/blob/main/experiments/1924_AfterSAM_mask_1.png)
+![](https://github.com/Nick0317Sun/SAM-CropSampleGeneration/blob/main/experiments/1924_AfterSAM_mask_2.png)
+![](https://github.com/Nick0317Sun/SAM-CropSampleGeneration/blob/main/experiments/1924_AfterSAM_mask_3.png)
+
+(3) (id)_AfterSAM\_SITS.png : The NDVI time series curves of the reference sample and generated samples. The red line is the curve of the reference sample. 
+
+Example 1924_AfterSAM_SITS.png:
+
+![](https://github.com/Nick0317Sun/SAM-CropSampleGeneration/blob/main/experiments/1924_AfterSAM_SITS.png)
+
+(4) (id)_AfterSAM\_SITS_cleaned.png : The NDVI time series curves of the reference sample and generated samples after sample cleaning. The red line is the curve of the reference sample. 
+
+Example 1924_AfterSAM_SITS_cleaned.png:
+
+![](https://github.com/Nick0317Sun/SAM-CropSampleGeneration/blob/main/experiments/1924_AfterSAM_SITS_cleaned.png)
 
 ## Note
 The raster and vector data we used have been processed according to our requirements, and our code may only be applicable to these processed data. 
