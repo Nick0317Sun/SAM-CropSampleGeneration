@@ -36,6 +36,17 @@ CPU:
 
 `python main.py --optimalImage ./images/20190919.tif --patch_x 200 --patch_y 200`
 
+## Results
+Each sample would generate six PNG images. 
+
+(1) (id)_BeforeSAM.png : indicates the patch extracted as the input for SAM, and where the reference sample located.
+
+(2) (id)_AfterSAM_mask\_(num).png × 3: indicates the mask producted by SAM, and where the mask located in the patch. Because of our settings of SAM, it produces 3 masks with scores.
+
+(3) (id)_AfterSAM\_SITS.png : The NDVI time series curves of the reference sample and generated samples. The red line is the curve of the reference sample.
+
+(4) (id)_AfterSAM\_SITS_cleaned.png : The NDVI time series curves of the reference sample and generated samples after sample cleaning. The red line is the curve of the reference sample.
+
 ## Note
 The raster and vector data we used have been processed according to our requirements, and our code may only be applicable to these processed data. 
 If you intend to use our code with your own data, please review our code and make modifications specific to your data format, such as how to read the temporal information of rasters and attribute tables of vector files. If you encounter any difficulties, feel free to ask the main author of the code through jialinsun4815162342@gmail.com. We are delighted to engage in any academic and code-related discussions.
