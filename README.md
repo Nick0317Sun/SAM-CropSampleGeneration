@@ -76,6 +76,9 @@ The raster and vector data we used have been processed according to our requirem
 If you intend to use our code with your own data, please review our code and make modifications specific to your data format, such as how to read the temporal information of rasters and attribute tables of vector files. If you encounter any difficulties, feel free to ask the main author of the code through jialinsun4815162342@gmail.com. We are delighted to engage in any academic and code-related discussions.
 
 ## License
+
+Feel free to use our codes for any academic purposes, and academic purposes only.
+
 [Facebook Research Segment Anything](https://github.com/facebookresearch/segment-anything) — Apache-2.0 license
 
 ## Citation
