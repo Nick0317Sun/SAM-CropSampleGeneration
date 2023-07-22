@@ -28,6 +28,8 @@ We provided a simple demo of using Sentinel-2 time series and field-survey sampl
 
 You can use commands below to run the code. Considering not everyone can have resources to execute SAM on GPU, you can also try our demo by using CPU. The processing time depends on your equipments and data used.
 
+If you want to fully automate the process, you can not to use the parameter _--optimalImage_. The code can automatically select the optimal image by our standard from the time series. 
+
 GPU:
 
 `python main.py --optimalImage ./images/20190919.tif --patch_x 200 --patch_y 200 --device cuda`
