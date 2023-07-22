@@ -37,7 +37,8 @@ CPU:
 `python main.py --optimalImage ./images/20190919.tif --patch_x 200 --patch_y 200`
 
 ## Results
-Each sample would generate six PNG images. 
+##### All results would be seen in the _experiments_ folder
+##### Each sample would generate six PNG images. 
 
 (1) (id)_BeforeSAM.png : indicates the patch extracted as the input for SAM, and where the reference sample located. 
 
@@ -64,6 +65,11 @@ Example 1924_AfterSAM_SITS.png:
 Example 1924_AfterSAM_SITS_cleaned.png:
 
 ![](https://github.com/Nick0317Sun/SAM-CropSampleGeneration/blob/main/experiments/1924_AfterSAM_SITS_cleaned.png)
+
+##### All samples would be stored after iterations.
+
+After the last iteration, Generated_samples.shp would be generated to store all reference samples and generated samples. You can see it along with images in softwares like Arcmap.
+
 
 ## Note
 The raster and vector data we used have been processed according to our requirements, and our code may only be applicable to these processed data. 
