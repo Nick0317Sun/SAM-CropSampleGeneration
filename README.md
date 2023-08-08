@@ -36,7 +36,7 @@ CPU:
 
 `python main.py --optimalImage ./images/20190919.tif --patch_x 200 --patch_y 200`
 
-If you want to fully automate the process, you can not to use the parameter _--optimalImage_. The code can automatically select the optimal image by our standard from the time series. 
+If you want to fully automate the process, you can choose not to use the parameter _--optimalImage_. The code can automatically select the optimal image by our standard from the time series. 
 
 ## Results
 ##### All results would be seen in the _experiments_ folder
