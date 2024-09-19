@@ -84,7 +84,18 @@ Feel free to use our codes for any academic purposes, and academic purposes only
 [Facebook Research Segment Anything](https://github.com/facebookresearch/segment-anything) — Apache-2.0 license
 
 ## Citation
-Still in progress.
+```
+@article{sun2024enhancing,
+  title={Enhancing Crop Mapping through Automated Sample Generation Based on Segment Anything Model with Medium-Resolution Satellite Imagery},
+  author={Sun, Jialin and Yan, Shuai and Alexandridis, Thomas and Yao, Xiaochuang and Zhou, Han and Gao, Bingbo and Huang, Jianxi and Yang, Jianyu and Li, Ying},
+  journal={Remote Sensing},
+  volume={16},
+  number={9},
+  pages={1505},
+  year={2024},
+  publisher={MDPI}
+}
+```
 
 ## Some other awesome projects using SAM for remote sensing applications
 [segment-anything-eo](https://github.com/aliaksandr960/segment-anything-eo)
