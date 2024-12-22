@@ -1,6 +1,6 @@
 # SAM-CropSampleGeneration
 ## Background
-This is an exploration on what [Segment Anything Model (SAM)](https://github.com/facebookresearch/segment-anything) can do for remote sensing involving medium-resolution satellite imagery. Specifically, an automated sample generation approach based on SAM is proposed to solve sample scarcity problem in crop mapping.The workflow is shown in the picture. More details can be found in our ongoing paper. Notably, thanks to powerful ability of SAM, our approach can be extended to various types of imagery and areas.
+This is an exploration on what [Segment Anything Model (SAM)](https://github.com/facebookresearch/segment-anything) can do for remote sensing involving medium-resolution satellite imagery. Specifically, an automated sample generation approach based on SAM is proposed to solve sample scarcity problem in crop mapping.The workflow is shown in the picture. More details can be found in our paper. Notably, thanks to powerful ability of SAM, our approach can be extended to various types of imagery and areas.
 We hope our little contribution can offer some references on utlizing foundation models to solve remote sensing problems. 
 
 
